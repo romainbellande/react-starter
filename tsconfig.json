@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "sourceMap": true,
+    "allowJs": true,
+    "outDir": "./dist",
+    "jsx": "react",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths" : {
+      "src/*": ["src/*"],
+      "app/*": ["src/app/*"]
+    }
+  },
+  "include": [
+    "src/**/*.*",
+    "e2e/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/App/test/**"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "A React starter kit with a bunch of included tools",
+  "main": "index.js",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "connected-react-router": "^4.3.0",
+    "hammerjs": "^2.0.8",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-hot-loader": "^4.3.3",
+    "react-loadable": "^5.4.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "rxjs": "^6.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.55",
+    "@babel/plugin-syntax-decorators": "^7.0.0-beta.55",
+    "@babel/plugin-syntax-jsx": "^7.0.0-beta.55",
+    "@babel/plugin-syntax-typescript": "^7.0.0-beta.55",
+    "@babel/preset-env": "^7.0.0-beta.55",
+    "@types/react": "^16.4.6",
+    "@types/react-redux": "^6.0.5",
+    "@types/react-router": "^4.0.29",
+    "@types/webpack": "^4.4.7",
+    "@types/webpack-env": "^1.13.6",
+    "autoprefixer": "^9.0.1",
+    "awesome-typescript-loader": "^5.2.0",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "dotenv-webpack": "^1.5.7",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.4.1",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "postcss-loader": "^2.1.6",
+    "redux-observable": "^1.0.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.4.2",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.9.2",
+    "typedoc": "^0.11.1",
+    "typescript": "^2.9.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-merge": "^4.1.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack-dev-server --config ./webpack/webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romainbellande/react-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romainbellande/react-starter/issues"
+  },
+  "homepage": "https://github.com/romainbellande/react-starter#readme"
+}
